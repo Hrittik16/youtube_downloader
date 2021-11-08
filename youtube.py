@@ -6,6 +6,4 @@ video = YouTube(link)
 
 video = video.streams.get_highest_resolution()
 
-# video = video.streams.filter(res="720p")
-
 video.download()
